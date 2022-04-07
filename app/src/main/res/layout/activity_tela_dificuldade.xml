@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela_dificuldade"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="selecione a dificuldade:"
+        android:textSize="36dp"
+        android:layout_marginBottom="64dp"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/facil"
+        android:layout_width="234dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Fácil"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+         />
+
+    <Button
+        android:id="@+id/medio"
+        android:layout_width="234dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Médio"
+        android:textColor="@color/white"
+        android:textSize="36dp"/>
+
+    <Button
+        android:id="@+id/dificil"
+        android:layout_width="234dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Difícil"
+        android:textColor="@color/white"
+        android:textSize="36dp" />
+
+    <Button
+        android:id="@+id/doisjogadores"
+        android:layout_width="234dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="2 jogadores"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+
+</LinearLayout>
